@@ -27,7 +27,7 @@ import java.util.Scanner;
                     } else if (selecet == 2) {
                         System.out.print("Cekmek istediginiz miktari giriniz:");
                         money = input.nextInt();
-                        if (balance > money) {
+                        if (money > balance) {
                             System.out.println("Bakiyeniz yetersiz.");
                         } else {
                             balance -= money;
